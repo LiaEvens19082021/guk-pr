@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jewelry-shop", "jewelry-shop.csproj", "{ACD41112-964B-4E20-A4B5-460B7D3A73A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{AFFF8FD7-C41A-4528-874C-3333E56300A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "servises", "..\u\servises.csproj", "{2BD44C1A-507B-40F9-91EF-439471211536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "database", "..\i\database.csproj", "{5E5DCB91-BAD0-4BE4-8A40-E690FB81FBA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACD41112-964B-4E20-A4B5-460B7D3A73A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD41112-964B-4E20-A4B5-460B7D3A73A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD41112-964B-4E20-A4B5-460B7D3A73A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD41112-964B-4E20-A4B5-460B7D3A73A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BD44C1A-507B-40F9-91EF-439471211536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD44C1A-507B-40F9-91EF-439471211536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD44C1A-507B-40F9-91EF-439471211536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD44C1A-507B-40F9-91EF-439471211536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E5DCB91-BAD0-4BE4-8A40-E690FB81FBA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E5DCB91-BAD0-4BE4-8A40-E690FB81FBA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E5DCB91-BAD0-4BE4-8A40-E690FB81FBA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E5DCB91-BAD0-4BE4-8A40-E690FB81FBA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2BD44C1A-507B-40F9-91EF-439471211536} = {AFFF8FD7-C41A-4528-874C-3333E56300A5}
+		{5E5DCB91-BAD0-4BE4-8A40-E690FB81FBA5} = {AFFF8FD7-C41A-4528-874C-3333E56300A5}
+	EndGlobalSection
+EndGlobal
